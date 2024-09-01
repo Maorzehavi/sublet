@@ -24,15 +24,19 @@ function LinksDropdown() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className='w-52' align='center' sideOffset={10}>
+        <section className='shadow-xl'>
+
         {links.map((link) => {
           return (
-            <DropdownMenuItem key={link.href}>
-              <Link href={link.href} className='capitalize w-full'>
+            <DropdownMenuItem key={link.href} className='hover:bg-zinc-300'>
+              <Link href={link.href} className='capitalize w-full hover:translate-x-1 '>
                 {link.label}
               </Link>
             </DropdownMenuItem>
           );
         })}
+
+        </section>
       </DropdownMenuContent>
     </DropdownMenu>
   );
