@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 
 function Logo() {
     return (
-        <Button size={'icon'} variant={'default'} className='rounded-full bg-slate-500 hover:bg-slate-800' asChild>
+        <Button size={'icon'} variant={'default'} className='rounded-full' asChild>
             <Link href={'/'}>
                 <RiHotelBedLine className='w-6 h-6' />
             </Link>
