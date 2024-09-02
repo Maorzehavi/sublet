@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
-        <body className={poppins.className}>
+        <body className={`${poppins.className} selection:bg-pink-400`}>
           <Providers>
             <Navbar />
             <main className="container py-10">

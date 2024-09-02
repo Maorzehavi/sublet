@@ -3,7 +3,7 @@ import { Input } from '../ui/input'
 
 function NavSerach() {
   return (
-    <Input type='search' className='max-w-sm  dark:bg-muted border border-primary mx-auto' placeholder='find a property...'/>
+    <Input type='search' className='max-w-sm  dark:bg-muted border border-primary mx-auto md:max-w-lg text-center' placeholder='find a property...'/>
   )
 }
 

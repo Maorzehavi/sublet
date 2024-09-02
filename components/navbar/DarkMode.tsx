@@ -28,7 +28,7 @@ export default function ModeToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align='center' className='shadow-xl'>
         {options.map((option) => (
-            <DropdownMenuItem  key={option} onClick={()=> setTheme(option)} className='hover:translate-x-1 hover:cursor-pointer hover:bg-zinc-300' >
+            <DropdownMenuItem  key={option} onClick={()=> setTheme(option)} className={`hover:translate-x-2 hover:cursor-pointer hover:bg-zinc-300 `} >
                 {option}
             </DropdownMenuItem>
         ))}
