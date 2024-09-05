@@ -12,7 +12,7 @@ import { Button } from '@/components/ui/button'
 import UserIcon from './UserIcon'
 import { links } from '@/utils/links'
 import SignOutLink from './SignOutLink'
-import {SignedIn, SignedOut, SignInButton, SignUpButton, SignOutButton} from '@clerk/nextjs'
+import {SignedIn, SignedOut, SignInButton, SignUpButton} from '@clerk/nextjs'
 
 
 function LinksDropdown() {
